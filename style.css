@@ -28,7 +28,7 @@ input, button {
 }
 
 main {
-    padding: 55px;
+    padding: 25px;
     box-shadow: 8px 8px 35px 0px rgb(0 0 0 / 75%);
     border: var(--border);
 
@@ -40,8 +40,51 @@ h1 {
 
 #input-original, #resultado {
     background-color: var(--color-terminal);
-    width:  100%;
+    width: -webkit-fill-available;
 }
 
+#input-original {
+    margin: 10 0 0px;
+    padding: 10px;
+    color: white;
+    border-bottom-left-radius: var(--border);
+    border-bottom-right-radius: var(--border);
+}
 
+#resultado {
+    height: 20px;
+    color: #5af78d;
+    padding: 0 10px;
+}
+
+.rango {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 30px;
+    text-align: center;
+    align-items: center;
+}
+
+/* estilo del rango entero  */
+
+input[type='range'] {
+    -webkit-appearance: none;
+    background: var(--color-terminal);
+    border-radius: var(--border);
+    margin: 0;
+    padding: 0 5px;
+    height: 20px;
+}
+
+/* estilo de la bolita del rango 
+-webkit-appearance: none; es el prevent default*/
+
+input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: white;
+}
 
