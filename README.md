@@ -7,5 +7,5 @@ Proyecto hecho con JS usando promesas y recursividad.
 
 Ver en vivo: https://xweret.github.io/Caesar.cipher/
 
-![image](https://user-images.githubusercontent.com/95048921/179422798-0e461506-9d3a-4223-b91e-26d21e80aced.png)
+![image](https://user-images.githubusercontent.com/95048921/179422829-4326c7eb-a0ec-42aa-a586-048bf9703115.png)
 
