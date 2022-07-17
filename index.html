@@ -7,19 +7,27 @@
     <title>Cesar Cipher</title>
     <link href="style.css" rel="stylesheet"/>
     <script  src="script.js" defer></script>
+        <!-- font aweseome link del cdn -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
 <body>
     <main>
+        <!-- form -->
         <h1>Cesar Cipher.</h1>
-        <form id="cifrador" autocomplete="off">
-                <input id="input-original" spellcheck="false" placeholder= "Ingrese el texto" type= "text" name="text">
+         <form id="cifrador" autocomplete="off">
+            <input id="input-original" spellcheck="false" placeholder="Ingrese el texto" type="text" name="text">
         </form>
         <div id="resultado"></div>
         <div class="rango">
-            <input id="rango" type="range" value="10" min="1" max="20" oninput="this.nexElementSibling.value = this.value"> 
+            <input id="rango" type="range" value="10" min="1" max="20" oninput="this.nextElementSibling.value = this.value"> 
+            <!-- oninput="this.nextElementSibling.value = this.value ( Propiedad que muestra el valor del actual del input ) -->
             <output>10</output>
-            </div> 
+            </div>   
     </main>
+
+    <footer>
+        <p>Desarrolado por <a  target="_blank" href="https://www.linkedin.com/in/gabrielgarofalo/">Gabriel Garofalo <i class="fab fa-linkedin"></i></a></p>
+    </footer>
     
 </body>
 </html>
